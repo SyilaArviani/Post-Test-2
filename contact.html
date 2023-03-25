@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form</title>
+	<meta charset="UTF-8"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800&amp;subset=latin-ext" rel="stylesheet">
+	<link href="css/logo.css" type="text/css" rel="stylesheet"/>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+	<div id="container">
+		<div id="logo">
+			<h1>Matcha<span>Time</span></h1>
+		</div>
+		<div id="menu">
+			<a href="index.html"><div class="option">Home Page</div></a>
+			<a href="about_me.html"><div class="option">About Me</div></a>
+			<a href="contact.html"><div class="option" id="specialoption">Form</div></a>
+			<a href="ss.html"><div class="option">Your Account</div></a>
+		</div>
+		
+		<div id="contact-header">
+			Form
+		</div>
+		<div id="contact-container">
+			<h3> Please fill the following form</h3>
+			<form id="form">
+				<input class="input" type="text" id="fname" placeholder="First Name" />
+				<input class="input" type="text" id="lname" placeholder="Last Name" /><br/>
+				<input class="input" type="text" id="email" placeholder="email@example.com" />
+				<input class="input" type="text" id="country" placeholder="Country"/><br/>
+
+				<h2> 1. Please choose your gender</h2>
+				<input type="radio" name="gen" value="women" >women<br>
+				<input type="radio" name="gen" value="men">men<br>
+				  <br>
+
+				<h2> 2. Do you prefer working from store or home?</h2>
+				<input type="checkbox" name="loc" value="store">store <br>
+				<input type="checkbox" name="loc" value="home">home
+
+				<p> 3. Are you available for working immediately? </p>
+				<select id="select">
+					<option value="Yes">Yes</option>
+					<option value="No">No</option>
+				</select>
+				<br>
+				<br>
+
+				<textarea id="textarea">Tell us about yourself, no private things</textarea> <br>
+				<input id="sub" type="submit" value="Submit"/>
+			<form>
+		</div>
+		
+		<div id="footer"> Address : 81st Teezers Street, NY, USA | Email : matchatime@cs.id | Website : www.matchatime.com</div>
+	</div>
+	<script src="contact.js"></script>
+</body>
+</html>
